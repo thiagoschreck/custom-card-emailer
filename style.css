@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: lightgrey;
+  height: fit-content;
+  width: fit-content;
+}
+
+body {
+  height: 541px;
+  width: 720px;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  height: 100%;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.container div {
+  color: #000;
+  font-family: "Malgun Gothic";
+  font-size: 25px;
+  font-weight: bold;
+  left: 40%;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 21%;
+  transform: translate(-50%, -50%);
+}
